@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Feng Mi</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+<h1> green screen </h1>
+<p>
+<canvas id ="fgcan"> </canvas>
+<canvas id = "bgcan"> </canvas>
+</p>
+<p>
+<input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "fgimg"
+       onchange = "upload_fgimg()">
+<input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "bgimg"
+       onchange = "upload_bgimg()">
+</p>
+<p>
+  <input type = "button"
+       value = "Create Composite"
+       onclick = "doGreenScreen()">
+  <input type = "button"
+       value = "clear screen"
+       onclick = "clear_two_canvas()">
+</p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

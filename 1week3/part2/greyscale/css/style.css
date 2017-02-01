@@ -1,0 +1,14 @@
+body
+{
+  font-size: 15pt;
+  
+}
+input {
+  font-size: 15pt;
+}
+
+canvas
+{
+  height: 200px;
+  border: 1px solid lightgray;
+}

@@ -1,0 +1,12 @@
+// write your code here
+var img = new SimpleImage("pixabayhands.jpg");
+print(img);
+
+
+for(var pixel of img.values() ){
+var change;
+change = pixel.getRed();
+pixel.setRed(pixel.getGreen);
+pixel.setGreen(change);
+}
+print(img);
